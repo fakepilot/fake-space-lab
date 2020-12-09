@@ -8,7 +8,7 @@ environment = os.getenv('BUILD_ENV', 'development')
 build_config = config.deploy if environment == 'deploy' else config.development
 
 base_url = build_config.base_url
-site_title = 'My notes'
+site_title = 'Fake-Space Lab'
 
 static = files.find('static/**/*')
 
